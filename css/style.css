@@ -75,11 +75,22 @@ main{
     border-color: grey;
     text-align: left;
 }
+.new_task{
+    
+}
+.today{
+
+}
+.upcoming{
+
+}
 h2{
     text-align: left;
     padding-top: 4rem;
+    background-color: white;
 }
 h3{
+    background-color: white;
     text-align: left;
     padding-top: 0.50rem;
     padding-bottom: 0.50rem;
@@ -107,4 +118,28 @@ h3{
     color: red;
     margin-right: 1rem;
     border-style: solid;
+}
+#editorial{
+    background-color: white;
+    display: inline-block;
+}
+#goals{
+    background-color: white;
+    display: inline-block;
+}
+#recuiting{
+    background-color: white;
+    display: inline-block;
+}
+#mobile{
+    background-color: white;
+    display: inline-block;
+}
+#website{
+    background-color: white;
+    display: inline-block;
+}
+#sales{
+    background-color: white;
+    display: inline-block;
 }
