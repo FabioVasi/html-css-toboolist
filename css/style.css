@@ -10,6 +10,7 @@ header{
     height: 6rem;
     background-color: white;
     text-align: left;
+    display: inline-block;
 }
 #logo{
     width: 5rem;
@@ -20,6 +21,8 @@ header{
     padding-bottom: 0,25rem;
 }
 h1{
+    vertical-align: 50%;
+    font-family: 'Times New Roman', Times, serif;
     display: inline-block;
     background-color: white;
     font-size: 4rem;
@@ -36,6 +39,16 @@ nav{
     text-align: left;
     padding-left: 4rem;
 }
+#task{
+    border: 2px solid #46ADF0;
+    color: white;
+    border-color: lightgrey;
+    border-style: solid;
+}
+#section{
+    border: 2px solid #dcdcdc;
+    color: lightgrey;
+}
 main{
     background-color: white;
     margin: auto;
@@ -49,14 +62,45 @@ main{
 }
 
 #task{
-    background-color: blue;
+    background-color: rgb(2, 204, 255);
     margin-top: 50px;
     margin-right: 1rem;
     color: white;
+    border-color: grey;
 }
 #section{
     background-color: white;
     margin-top: 2px;
     margin-left: 1rem;
     border-color: grey;
+    text-align: left;
+}
+h2{
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.check{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: lightgreen;
+    margin-right: 1rem;
+    border-style: solid;
+}
+.cross{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: red;
+    margin-right: 1rem;
+    border-style: solid;
 }
