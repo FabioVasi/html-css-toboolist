@@ -79,7 +79,11 @@ h2{
     text-align: left;
     padding-top: 4rem;
 }
-
+h3{
+    text-align: left;
+    padding-top: 0.50rem;
+    padding-bottom: 0.50rem;
+}
 .check{
     background-color: white;
     width: 50px;
