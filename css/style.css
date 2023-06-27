@@ -170,3 +170,9 @@ h3{
     padding-right: 0.50rem;
     margin-left: 1rem;  
 }
+.footer{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+}
