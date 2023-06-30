@@ -87,37 +87,40 @@ h2{
 h3{
     background-color: white;
     text-align: left;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 1.50rem;
+    font-weight: 400;
 }
 .check{
     background-color: white;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
-    line-height: 50px;
-    color: lightgreen;
+    line-height: 30px;
+    color: rgb(0, 255, 0);
     margin-right: 1rem;
-    border-style: solid;
+    border: 2px solid rgb(0, 255, 0);
+    font-size: 1rem;
 }
 .cross{
     background-color: white;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     border-radius: 50%;
     text-align: center;
-    line-height: 50px;
+    line-height: 30px;
     color: red;
     margin-right: 1rem;
-    border-style: solid;
+    border: 2px solid red;
+    font-size: 1rem;
 }
 #editorial{
     background-color: rgb(2, 204, 255);
-    border-radius: 0.60rem;
+    border-radius: 1rem;
     width: 120px;
     display: inline-block;
     color: white;
@@ -130,7 +133,7 @@ h3{
 }
 #goals{
     background-color: rgb(138, 4, 129);
-    border-radius: 0.60rem;
+    border-radius: 1rem;
     width: 120px;
     display: inline-block;
     color: white;
@@ -143,7 +146,7 @@ h3{
 }
 #recuiting{
     background-color: rgb(67, 201, 109);
-    border-radius: 0.60rem;
+    border-radius: 1rem;
     width: 120px;
     display: inline-block;
     color: white;
@@ -156,7 +159,7 @@ h3{
 }
 #mobile{
     background-color: rgb(255, 145, 2);
-    border-radius: 0.60rem;
+    border-radius: 1rem;
     width: 120px;
     display: inline-block;
     color: white;
@@ -169,7 +172,7 @@ h3{
 }
 #website{
     background-color: rgb(237, 85, 219);
-    border-radius: 0.60rem;
+    border-radius: 1rem;
     width: 120px;
     display: inline-block;
     color: white;
@@ -182,7 +185,7 @@ h3{
 }
 #sales{
     background-color: rgb(113, 188, 96);
-    border-radius: 0.60rem;
+    border-radius: 1rem;
     width: 120px;
     display: inline-block;
     color: white;
